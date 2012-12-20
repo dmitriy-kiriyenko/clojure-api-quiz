@@ -30,4 +30,16 @@ $ curl 'http://127.0.0.1:8080/store'
 
 # Solution
 
-TODO
+Run with
+
+```console
+lein ring server
+```
+
+Test with
+
+```console
+lein test
+```
+
+And yes, I know my tests can interfere with each other through redis, the same with which application in development interacts.
